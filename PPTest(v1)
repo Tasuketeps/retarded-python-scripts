@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+#declare
+"""splashscreen for script"""
+def spl():
+  print('        __________              .__         ___________              __                ___        ____  ___   ') 
+  print('        \______   \ ____   ____ |__| ______ \__    ___/___   _______/  |_             /  / ___  _/_   | \  \  ')
+  print('  ______ |     ___// __ \ /    \|  |/  ___/   |    |_/ __ \ /  ___/\   __\  ______   /  /  \  \/ /|   |  \  \ ') 
+  print(' /_____/ |    |   \  ___/|   |  \  |\___ \    |    |\  ___/ \___ \  |  |   /_____/  (  (    \   / |   |   )  )') 
+  print('         |____|    \___  >___|  /__/____  >   |____| \___  >____  > |__|             \  \    \_/  |___|  /  / ') 
+  print('                       \/     \/        \/               \/     \/                    \__\              /__/  ') 
+  print('  Made by Tasukete                                                                                            ')
+#code
+spl()
+print()
+print('-------------------------------------------------------------------------------------------------------------')
+print()
+print('This script takes in the measurements that you key in and evaluates them to see how your *manhood* is like')
+
+#user input
+print('Measurements to be done in cm (2dp)')
+flaccid = input('Length of pp when flaccid: ')
+length = input('Length of pp when hard: ')
+girth = input('Circumference of pp when hard(girth): ')
+#measurement stats
+"""
+Flaccid length: 9.16 cm
+Stretched flaccid length: 13.24 cm
+Erect length: 13.12 cm
+Flaccid girth: 9.31 cm
+Erect girth: 11.66 cm
+"""
+#code continued
+""" small boy """
+if flaccid <= '8.90' and length <= '12.9' and girth <= '11.5':
+  print('You Asian br0?')
+"""average joe"""
+elif flaccid <= '9.35' and length <= '13.16' and girth <= '11.70':
+  print('Thats a pretty normal willy mate.')
+else:
+  print("AlpHa mAl3")
