@@ -30,10 +30,8 @@ Flaccid girth: 9.31 cm
 Erect girth: 11.66 cm
 """
 #code continued
-""" small boy """
 if flaccid <= 8.90 and length <= 12.9 and girth <= 11.5:
   print('You Asian br0?')
-"""average joe"""
 elif flaccid <= 9.35 and length <= 13.16 and girth <= 11.70:
   print('Thats a pretty normal willy mate.')
 else:
