@@ -18,9 +18,9 @@ print('This script takes in the measurements that you key in and evaluates them 
 
 #user input
 print('Measurements to be done in cm (2dp)')
-flaccid = input('Length of pp when flaccid: ')
-length = input('Length of pp when hard: ')
-girth = input('Circumference of pp when hard(girth): ')
+flaccid = float(input('Length of pp when flaccid: '))
+length = float(input('Length of pp when hard: '))
+girth = float(input('Circumference of pp when hard(girth): '))
 #measurement stats
 """
 Flaccid length: 9.16 cm
@@ -31,10 +31,10 @@ Erect girth: 11.66 cm
 """
 #code continued
 """ small boy """
-if flaccid <= '8.90' and length <= '12.9' and girth <= '11.5':
+if flaccid <= 8.90 and length <= 12.9 and girth <= 11.5:
   print('You Asian br0?')
 """average joe"""
-elif flaccid <= '9.35' and length <= '13.16' and girth <= '11.70':
+elif flaccid <= 9.35 and length <= 13.16 and girth <= 11.70:
   print('Thats a pretty normal willy mate.')
 else:
   print("AlpHa mAl3")
